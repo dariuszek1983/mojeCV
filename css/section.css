@@ -1,0 +1,14 @@
+.section__photo {
+    width: 200px;
+}
+
+.section__box {
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.section__boxElement {
+    color: #ff0000;
+}

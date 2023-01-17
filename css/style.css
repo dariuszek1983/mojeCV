@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: "Lato", sans-serif;
+    max-width: 1000px;
+    line-height: 1.5;
+    padding: 0 20px;
+}
+
+.body--dark {
+    background-color: #000;
+    color: #fff;
+}
+
+.naglowek {
+    color: black;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+.footer__paragraph {
+    background-color: aqua;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}

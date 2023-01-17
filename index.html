@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Moja pierwsza strona</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="css/style.css"
+      rel="stylesheet"
+    />
+    <link
+      href="css/section.css"
+      rel="stylesheet"
+    />
+    <link
+      href="css/nav.css"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="js/script.js"
+    ></script>
+  </head>
+
+  <body class="body">
+    <header><h1 class="naglowek">IT Frontend Developer</h1></header>
+    <nav class="navigation">
+      <ul class="navigation__ul">
+        <li>
+          <a
+            class="navigation__link"
+            href="#motto"
+            >Motto</a
+          >
+        </li>
+        <li>
+          <a
+            class="navigation__link"
+            href="#zainteresowania"
+          >
+            Zainteresowania
+          </a>
+        </li>
+        <li>
+          <a
+            class="navigation__link"
+            href="#lista"
+            >Lista punktowa</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <section class="section">
+      <button class="js-section__przycisk">Usuń zdjęcie</button>
+      <button class="js-section__theme">
+        Zmień motyw na
+        <span class="js-section__themeName">ciemny</span>
+      </button>
+      <h2>Dariusz Kaczorowski</h2>
+      <img
+        class="section__photo js-section__photo"
+        src="images/dariusz.jpg"
+        alt="Dariusz Kaczorowski"
+      />
+    </section>
+    <main>
+      <section class="section__box">
+        <p>
+          W wieku
+          <span class="section__boxElement">39 lat</span>
+          również możesz zostać programistą.
+        </p>
+        <p>
+          Wszystko w cokolwiek
+          <strong>umysł może uwierzyć</strong>
+          , wszystkiego tego możesz dokonać.
+        </p>
+      </section>
+    </main>
+    <section>
+      <article id="motto">
+        <h2>Motto</h2>
+        <p>
+          Stajesz się tym, o czym myślisz
+          <em>przez większość czasu.</em>
+        </p>
+      </article>
+      <article id="zainteresowania">
+        <h2>Zainteresowania</h2>
+        <p>
+          Programowanie
+          <br />
+          Książki
+          <br />
+          Rozwój osobisty
+        </p>
+      </article>
+    </section>
+    <section id="lista">
+      <h2>Moje ulubione pojazdy</h2>
+      <ul>
+        <li>
+          Samochody
+          <ul>
+            <li>Lamborghini</li>
+            <li>Ferrari</li>
+            <li>Porshe</li>
+          </ul>
+        </li>
+        <li>
+          Motocykle
+          <ul>
+            <li>BMW</li>
+            <li>Kawasaki</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>Przepis na herbatę</h3>
+      <ol>
+        <li>Wklej wodę do czajnika</li>
+        <li>Zagotuj do wrzenia</li>
+        <li>
+          Zalej kubek wodą
+          <ul>
+            <li>Uważaj, żeby nie wylać</li>
+            <li>Możesz dolać mleka</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+    <footer>
+      <p class="footer__paragraph">Created by Dariusz Kaczorowski</p>
+    </footer>
+  </body>
+</html>
